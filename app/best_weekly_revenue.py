@@ -1,13 +1,3 @@
-# averages = [[17], [5, 10], [4, 16, 12]]
-# a = []
-# for average in averages:
-#     for i in average:
-#         max_value = max(average)
-#     a.append(max_value)
-# print(a)
-# max_value = max(a)
-# print (max_value)
-
 def best_everyday_revenue(revenue_by_day):
 
     """
