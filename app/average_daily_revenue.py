@@ -13,10 +13,10 @@ def averages_daily(revenue_by_day):
     summas = []  # empty list to save the averages daily revenue
 
     for average in revenue_by_day:
-        rezult = 0
+        result = 0
         for i in average :
-            rezult += i
-            av = rezult/len(average)
+            result += i
+            av = result/len(average)
         summas.append(av)
     max_value = max(summas)
     return  max_value
