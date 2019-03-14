@@ -14,10 +14,10 @@ def total_revenue(revenue_by_day):
     summas = [] #empty list to save the amount of revenue for the week
 
     for summa in revenue_by_day:
-        rezult = 0
+        result = 0
         for i in summa:
-            rezult += i
-        summas.append(rezult)
+            result += i
+        summas.append(result)
 
     max_value = max(summas)
     return  max_value
